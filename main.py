@@ -77,7 +77,7 @@ if uploaded_image:
     with st.spinner("Extraction des données..."):
         try:
             response = client.chat.complete(
-                model="pixtral-12b-2409",
+                model="pixtral-large-latest",
                 messages=messages
             )
 
